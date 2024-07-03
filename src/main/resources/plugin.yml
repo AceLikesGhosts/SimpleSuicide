@@ -1,0 +1,11 @@
+name: SimpleSuicide
+version: '${project.version}'
+main: me.ace.simplesuicide.SimpleSuicide
+api-version: '1.16'
+commands:
+  kill:
+    aliases:
+      - suicide
+      - death
+    description: Kill yourself, or another player if you have permissions.
+    usage: /kill (player)
